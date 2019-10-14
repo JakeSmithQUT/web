@@ -510,37 +510,15 @@
 /* Footer                                                                        */
 /*********************************************************************************/
 
-	#footer
-	{
-		overflow: hidden;
-		padding: 5em 0em;
+	.wrapper {
+		min-height: calc(100vh - 50px);
+	}
+	footer {
+		height: 50px;
 		background: #E3F0F7;
 		text-align: center;
 	}
 
-
-		
-	#footer .fbox1,
-	#footer .fbox2,
-	#footer .fbox3
-	{
-		float: left;
-		width: 320px;
-		padding: 0px 40px 0px 40px;
-	}
-	
-	#footer .icon
-	{
-		display: block;
-		margin-bottom: 1em;
-		font-size: 3em;
-	}
-
-	
-	#footer .title span
-	{
-		color: rgba(255,255,255,0.4);
-	}
 
 /*********************************************************************************/
 /* Copyright                                                                     */
