@@ -299,7 +299,7 @@
 	.title .byline
 	{
 		font-size: 1.1em;
-		color: #6F6F6F#;
+		color: #6F6F6F;
 	}
 
 /*********************************************************************************/
@@ -309,7 +309,7 @@
 	#header-wrapper
 	{
 		overflow: hidden;
-		background: #2056ac;
+		background: white;/*#2056ac;*/
 	}
 
 	#header
@@ -337,19 +337,19 @@
 	#logo a
 	{
 		text-decoration: none;
-		color: #FFF;
+		color: black;/* #FFF;*/
 	}
 	
 	#logo span
 	{
 		text-transform: uppercase;
 		font-size: 2.90em;
-		color: rgba(255,255,255,1);
+		color: black;/*rgba(255,255,255,1);*/
 	}
 
 	#logo span a
 	{
-		color: rgba(255,255,255,0.8);
+		color: black;/*rgba(255,255,255,0.8);*/
 	}
 	
 	
@@ -385,7 +385,7 @@
 		text-transform: uppercase;
 		line-height: 60px;
 		outline: 0;
-		color: #FFF;
+		color: black;	/*#FFF;*/
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
